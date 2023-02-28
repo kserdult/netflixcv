@@ -1,8 +1,22 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 const Navbar = () => {
+  const [show, handleShow] = useState(false);
+  const handleScroll =()=>{
+    if(window.scrollY > 10){
+      handleShow(true);
+    } else handleShow(false);
+  }
+
+  useEffect(()=>{
+    window.addEventListener("scroll",handleScroll)
+    return ()=>{
+      window.removeEventListener("scroll", handleScroll);
+    };
+  },[])
+
   return (
-    <div className='flex justify-between px-4 py-1 fixed w-full'>
+    <div className={`flex justify-between px-4 py-1 fixed w-full transition ease-in-out duration-[.4s] ${show&& `bg-black`}`}>
         <h1 className='text-red-600 text-lg font-bold cursor-pointer'>RESUME</h1>
         <div className='text-white'>
             <button className='mr-5'>
