@@ -1,12 +1,15 @@
 import MainTop from './Components/MainTop'
+import Movie from './Components/Movie'
 import Navbar from './Components/Navbar'
+import Slide from './Components/Slide'
 
 function App() {
 
   return (
-    <div className="App">
+    <div>
       <Navbar />
       <MainTop />
+      <Slide />
     </div>
   )
 }
