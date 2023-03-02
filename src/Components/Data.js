@@ -16,8 +16,14 @@ export const skills =[
     { id: 12, title: "TypeScript", IconTitle: AiFillHtml5 }
     ]
 
-export const projects =[
-    {
-
-    }
+export const certificates =[
+    {id:0, title: "ECDL", link:"https://www.dszcmechwart.hu", IconTitle: AiFillHtml5},
+    {id:1, title: "Cisco IT Essentials", link:"https://www.netacad.com", IconTitle: AiFillHtml5},
+    {id:2, title: "IT Essentials: PC Hardware and Software", link:"https://www.netacad.com", IconTitle: AiFillHtml5},
+    {id:3, title: "CCNA Routing and Switching: Introduction to Networks", link:"https://www.netacad.com", IconTitle: AiFillHtml5},
+    {id:4, title: "CCNA Routing and Switching: Routing and S,witching Essentials", link:"", IconTitle: AiFillHtml5},
+    {id:5, title: "CCNA Routing and Switching: Scaling Networks,", link:"https://www.netacad.com", IconTitle: AiFillHtml5},
+    {id:6, title: "CCNA Routing and Switching: Connecting Networks", link:"https://www.netacad.com", IconTitle: AiFillHtml5},
+    {id:7, title: "CCNA Security", link:"https://www.netacad.com", IconTitle: AiFillHtml5},
+    {id:8, title: "React and Redux course", link:"https://developedbyed.com/p/the-creative-react-and-redux-course", IconTitle: AiFillHtml5},
 ]

@@ -1,7 +1,6 @@
+import Main from './Components/Main'
 import MainTop from './Components/MainTop'
-import Movie from './Components/Movie'
 import Navbar from './Components/Navbar'
-import Slide from './Components/Slide'
 
 function App() {
 
@@ -9,7 +8,7 @@ function App() {
     <div>
       <Navbar />
       <MainTop />
-      <Slide />
+      <Main />
     </div>
   )
 }

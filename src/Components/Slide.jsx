@@ -1,9 +1,8 @@
 import React from 'react'
 import Movie from './Movie'
-import { skills } from './Data'
 import {MdOutlineKeyboardArrowRight, MdOutlineKeyboardArrowLeft} from 'react-icons/md/index'
 
-const Slide = ({rowID, title}) => {
+const Slide = ({rowID, title, items}) => {
   
 
   const slideLeft = () => {
@@ -21,7 +20,7 @@ const Slide = ({rowID, title}) => {
       <div className='relative flex items-center group'>
         <MdOutlineKeyboardArrowLeft onClick={slideLeft} className='rounded text-8xl w-8 h-36 bg-black/30 absolute top-1 left-0 z-10 text-white cursor-pointer hover:bg-black/80 hidden group-hover:block' />
         <div id={'slider' + rowID} className=' w-full h-full overflow-x-scroll whitespace-nowrap scroll-smooth scrollbar-hide relative'>
-          {skills.map((item, id) => (
+          {items.map((item, id) => (
                 <Movie key={id} item={item} />
           ))}
         </div>
