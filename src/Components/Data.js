@@ -28,3 +28,4 @@ export const certificates =[
     {id:7, title: "CCNA Security", link:"https://www.netacad.com", IconTitle: SiCisco},
     {id:8, title: "React and Redux course", link:"https://developedbyed.com/p/the-creative-react-and-redux-course", IconTitle: FaReact},
 ]
+
