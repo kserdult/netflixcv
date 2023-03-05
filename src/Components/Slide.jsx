@@ -18,13 +18,13 @@ const Slide = ({rowID, title, items}) => {
   <div>
     <h1 className='text-2xl ml-2 text-white'>{title}</h1>
       <div className='relative flex items-center group'>
-        <MdOutlineKeyboardArrowLeft onClick={slideLeft} className='rounded text-8xl w-8 h-36 bg-black/30 absolute top-1 left-0 z-10 text-white cursor-pointer hover:bg-black/80 hidden group-hover:block' />
+        <MdOutlineKeyboardArrowLeft onClick={slideLeft} className='rounded text-8xl w-8 h-[20vw] md:h-[15vw] lg:h-[10vw] bg-black/30 absolute top-0 left-0 z-10 text-white cursor-pointer hover:bg-black/80 hidden group-hover:block' />
         <div id={'slider' + rowID} className=' w-full h-full overflow-x-scroll whitespace-nowrap scroll-smooth scrollbar-hide relative'>
           {items.map((item, id) => (
                 <Movie key={id} item={item} />
           ))}
         </div>
-        <MdOutlineKeyboardArrowRight onClick={slideRight} className='rounded text-8xl w-8 h-36 bg-black/30 absolute top-1 right-0 z-10 text-white cursor-pointer hover:bg-black/80 hidden group-hover:block' />
+        <MdOutlineKeyboardArrowRight onClick={slideRight} className='rounded text-8xl w-8 h-[20vw] md:h-[15vw] lg:h-[10vw] bg-black/30 absolute top-0 right-0 z-10 text-white cursor-pointer hover:bg-black/80 hidden group-hover:block' />
       </div>
     </div>
   )

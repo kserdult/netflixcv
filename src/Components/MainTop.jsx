@@ -7,10 +7,10 @@ import {BsFillPlayFill} from 'react-icons/bs';
 const MainTop = () => {
   return (
     <div>
-        <img className='-z-10 absolute top-0 max-h-[500px] object-cover w-full' src={Peaky}/>
-        <div className=' pt-32 pl-8'>
+          <img className='-z-10 absolute top-0 max-h-[90%] h-[56.25vw] object-cover w-full' src={Peaky}/>
+        <div className=' pt-[15vw] pl-8'>
           <div>
-            <img src={PeakyLogo} className=' w-[200px]' />
+            <img src={PeakyLogo} className=' w-[20%]' />
             <p></p>
           </div>
           <div className='flex mt-6'>
