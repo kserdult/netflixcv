@@ -16,7 +16,7 @@ const Navbar = () => {
   },[])
 
   return (
-    <div className={`flex justify-between px-4 py-1 fixed w-full transition ease-in-out duration-[.4s] ${show&& `bg-black`}`}>
+    <div className={` z-20 flex justify-between px-4 py-1 fixed w-full transition ease-in-out duration-[.4s] ${show&& `bg-black`}`}>
         <h1 className='text-red-600 text-lg font-bold cursor-pointer'>RESUME</h1>
         <div className='text-white'>
             <button className='mr-5'>
