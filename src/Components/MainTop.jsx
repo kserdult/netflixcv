@@ -3,12 +3,14 @@ import Peaky from '../assets/peaky.jpg';
 import PeakyLogo from '../assets/peakylogo.jpg';
 import {AiOutlineInfoCircle} from 'react-icons/ai';
 import {BsFillPlayFill} from 'react-icons/bs';
+import MoreInfo from './MoreInfo';
 
 const MainTop = () => {
   return (
     <div>
-          <img className='-z-10 absolute top-0 max-h-[90%] h-[56.25vw] object-cover w-full' src={Peaky}/>
-        <div className=' pt-[15vw] pl-8'>
+      <MoreInfo />
+          <img className='-z-10 absolute top-0 max-h-[100%] h-[56.25vw] object-cover w-full' src={Peaky}/>
+        <div className=' pt-[15vw] lg:pt-[10vw] pl-8'>
           <div>
             <img src={PeakyLogo} className=' w-[20%]' />
             <p></p>
