@@ -1,20 +1,22 @@
 import {FaCss3Alt, FaHtml5, FaSass, FaReact, FaUnity, FaGithub} from 'react-icons/fa';
 import {SiMicrosoftoffice, SiTailwindcss, SiCsharp, SiMysql, SiJavascript, SiRedux, SiCisco, SiTypescript} from 'react-icons/si';
+import {TbBrandNextjs} from 'react-icons/tb';
 
 export const skills =[
     { id:0, title: "HTML", IconTitle: FaHtml5 },
     { id: 1, title: "CSS", IconTitle: FaCss3Alt},
     { id: 2, title: "SASS", IconTitle: FaSass},
     { id: 3, title: "TailWindCSS", IconTitle: SiTailwindcss },
-    { id: 4, title: "C#", IconTitle: SiCsharp },
-    { id: 5, title: "MySQL", IconTitle: SiMysql },
-    { id: 6, title: "JavaScript", IconTitle: SiJavascript },
-    { id: 7, title: "React", IconTitle: FaReact },
-    { id: 8, title: "Redux", IconTitle: SiRedux },
-    { id: 9, title: "Unity", IconTitle: FaUnity },
-    { id: 10, title: "Cisco IOS", IconTitle: SiCisco },
-    { id: 11, title: "GitHub", IconTitle: FaGithub },
-    { id: 12, title: "TypeScript", IconTitle: SiTypescript }
+    { id: 4, title: "JavaScript", IconTitle: SiJavascript },
+    { id: 5, title: "TypeScript", IconTitle: SiTypescript },
+    { id: 6, title: "React", IconTitle: FaReact },
+    { id: 7, title: "Redux", IconTitle: SiRedux },
+    { id: 8, title: "NextJS", IconTitle: TbBrandNextjs },
+    { id: 9, title: "GitHub", IconTitle: FaGithub },
+    { id: 10, title: "MySQL", IconTitle: SiMysql },
+    { id: 11, title: "Cisco IOS", IconTitle: SiCisco },
+    { id: 12, title: "C#", IconTitle: SiCsharp },
+    { id: 13, title: "Unity", IconTitle: FaUnity },
     ]
 
 export const certificates =[
