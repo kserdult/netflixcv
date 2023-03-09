@@ -24,7 +24,7 @@ export const certificates =[
     {id:1, title: "Cisco IT Essentials", link:"https://www.netacad.com", IconTitle: SiCisco},
     {id:2, title: "IT Essentials: PC Hardware and Software", link:"https://www.netacad.com", IconTitle: SiCisco},
     {id:3, title: "CCNA Routing and Switching: Introduction to Networks", link:"https://www.netacad.com", IconTitle: SiCisco},
-    {id:4, title: "CCNA Routing and Switching: Routing and Switching Essentials", link:"", IconTitle: SiCisco},
+    {id:4, title: "CCNA Routing and Switching: Routing and Switching Essentials", link:"https://www.netacad.com", IconTitle: SiCisco},
     {id:5, title: "CCNA Routing and Switching: Scaling Networks", link:"https://www.netacad.com", IconTitle: SiCisco},
     {id:6, title: "CCNA Routing and Switching: Connecting Networks", link:"https://www.netacad.com", IconTitle: SiCisco},
     {id:7, title: "CCNA Security", link:"https://www.netacad.com", IconTitle: SiCisco},
