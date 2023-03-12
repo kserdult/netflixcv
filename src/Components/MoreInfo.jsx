@@ -3,11 +3,16 @@ import {MdCancel, MdEmail, MdLocationCity, MdSchool, MdWork} from 'react-icons/m
 import {BsFillTelephoneFill} from 'react-icons/bs'
 
 const MoreInfo = ({moreInfo, setMoreInfo}) => {
-
+  const exitDetailHandler = (e) => {
+    const element = e.target;
+    if (element.classList.contains("cancel")) {
+      setMoreInfo(false)
+    }
+  };
   return (
-    <div onClick={()=> setMoreInfo(false)} className={` flex justify-center items-center w-[100vw] h-[100vh] z-50 ${moreInfo? `fixed bg-black/70` : `hidden bg-black/0`} `}>
+    <div onClick={exitDetailHandler} className={`cancel flex justify-center items-center w-[100vw] h-[100vh] z-50 ${moreInfo? `fixed bg-black/70` : `hidden bg-black/0`} `}>
         <div className='relative bg-[#181818] text-white w-[90vw] sm:w-[80vw] md:w-[70vw] md:h-[95vh] lg:w-[60vw] xl:w-[50vw] h-[90vh] rounded-md'>
-        <MdCancel onClick={()=> setMoreInfo(false)} className='absolute top-3 right-3 text-5xl cursor-pointer'/>
+        <MdCancel onClick={()=>setMoreInfo(false)} className='absolute top-3 right-3 text-5xl cursor-pointer'/>
           <h1 className='text-2xl w-full text-center mt-[3vw] sm:mt-[2.5vw] md:mt-[2vw] lg:mt-[1.5vw]'>Károly Serdült</h1>
           <ul className='ml-[10%] mt-[5vw] sm:mt-[4vw] md:mt-[3vw] lg:mt-[2vw]'>
             <li className='flex items-center'><BsFillTelephoneFill className=' mr-3'/> 30 784 7672</li>
