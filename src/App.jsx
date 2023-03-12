@@ -5,7 +5,7 @@ import Navbar from './Components/Navbar'
 function App() {
 
   return (
-    <div>
+    <div className='scrollbar scrollbar-thumb-gray-900 scrollbar-track-gray-100'>
       <Navbar />
       <MainTop />
       <Main />
