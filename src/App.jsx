@@ -1,3 +1,4 @@
+import Bottom from './Components/Bottom'
 import Main from './Components/Main'
 import MainTop from './Components/MainTop'
 import Navbar from './Components/Navbar'
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <MainTop />
       <Main />
+      <Bottom />
     </div>
   )
 }
